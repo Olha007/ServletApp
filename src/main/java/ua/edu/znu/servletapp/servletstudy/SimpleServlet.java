@@ -1,4 +1,4 @@
-package ua.edu.znu.servletapp;
+package ua.edu.znu.servletapp.servletstudy;
 
 import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
@@ -40,4 +40,3 @@ public class SimpleServlet extends HttpServlet {
         }
     }
 }
-

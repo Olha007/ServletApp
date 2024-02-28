@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+</head>
+<body>
+<!--Set the target Servlet in the action attribute-->
+<form action="SFLoginServlet" method="post">
+  <p>Username: <input type="text" name="username"/></p>
+  <p>Password: <input type="password" name="password"/></p>
+  <p><input type="submit" value="Login"/></p>
+</form>
+<h3 th:text="${message}"></h3>
+</body>
+</html>
